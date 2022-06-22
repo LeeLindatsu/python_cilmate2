@@ -30,7 +30,7 @@ jobs:
         run: |
           echo -n '${{ secrets.FIREBASE_SERVICEACCOUNT }}' > serviceAccount.json
           python -m pip install --upgrade pip
-          pip install -r requirements2.txt
+          pip install -r requirements.txt
       - name: python cilmate
         run: |
           python3 python_cilmate2.py
