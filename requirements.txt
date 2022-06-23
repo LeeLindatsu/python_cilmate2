@@ -1,4 +1,3 @@
-time
 firebase_admin
 BeautifulSoup4
 selenium
